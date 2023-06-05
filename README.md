@@ -1,28 +1,36 @@
 # Design a Website for Server Side Processing
 
-AIM:
+## AIM:
 To design a website to perform mathematical calculations in server side.
 
-DESIGN STEPS:
-Step 1:
+## DESIGN STEPS:
+
+### Step 1:
+
 Create a new django project and app.
 
-Step 2:
+### Step 2:
+
 Make on changes in settings and create templates folder.
 
-Step 3:
+### Step 3:
+
 Create a code for fronted of calculation using html and css and save it in templates.
 
-Step 4:
+### Step 4:
+
 Give an url mapping an give a python code for calculating in views.
 
-Step 5:
+### Step 5:
+
 Take a screenshot of the site and uploat it.
 
-Step 6:
+### Step 6:
+
 Publish the website in the given URL.
 
-PROGRAM :
+## PROGRAM :
+```
 ##math.html
 math.html
 <html>
@@ -119,14 +127,15 @@ urlpatterns = [
     path('areaofrectangle/',views.rectarea,name="areaofrectangle"),
     path('',views.rectarea,name="areaofrectangleroot")
 ]
-OUTPUT:
-
-![ep05](https://github.com/RANJEETH17/serversideprocessing/assets/120718823/a6c776e5-aed2-46ab-adec-59ecd8046c7e)
-
-HomePage:
-![ex005](https://github.com/RANJEETH17/serversideprocessing/assets/120718823/bd4454bd-30b2-41ac-9c1e-e43cbf613164)
+```
 
 
-Result:
+## OUTPUT:
+ ![out](https://github.com/Mohanish7777777/serversideprocessing/assets/111619160/36a286bf-7460-4ede-a551-f38696553a23)
+
+### HomePage:
+![rec](https://github.com/Mohanish7777777/serversideprocessing/assets/111619160/7ad23780-f22f-4d06-a98b-0831ed80d59c)
+
+
+## Result:
 The program for implementing server side processing is completed.
-
